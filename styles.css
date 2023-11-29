@@ -18,8 +18,8 @@ body {
 
 .left-header,
 .right-header {
-    margin: 20px 150px;
-    padding: 0 50px;
+    
+    padding: 10px 70px;
 
 }
 
@@ -60,22 +60,22 @@ button {
     cursor: pointer;
     border: #3882f6;
     border-radius: 8px;
-    width: 90px;
-    height: 30px;
+    width: 95px;
+    height: 35px;
     color: #f9faf8;
     font-weight: 900;
+
 }
 
 .small-text {
     font-size: 18px;
     color: #e5e7eb;
-
 }
 
 img {
-    
     width: 500px;
-    margin: 70px;
+    margin: auto;
+    padding: 30px;
    
 }
 
@@ -83,4 +83,6 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 50px;
+    
 }
