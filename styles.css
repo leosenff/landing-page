@@ -45,7 +45,7 @@ ul {
     gap: 30px;
 }
 
-.text{
+.header-text{
     display: flex;
     flex-direction: column;
     margin: 70px;
@@ -68,15 +68,22 @@ button {
 }
 
 .small-text {
-    font-size: 18px;
+    font-size: 18px;bird and flower
+this is some subtext under an illustration or image
     color: #e5e7eb;
 }
 
-img {
+.img-header {
     width: 500px;
     margin: auto;
     padding: 30px;
-   
+}
+
+.img-cards{
+    width: 200px;
+    border-radius: 10%;
+    
+    
 }
 
 .container-content {
@@ -85,4 +92,36 @@ img {
     align-items: center;
     padding-bottom: 50px;
     
+}
+
+.cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    
+}
+
+.text {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin: 50px 0;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 12%;
+}
+
+
+.card-text {
+    text-align: center;
+    padding: 5px;
+    color: rgb(58, 58, 58);
 }
