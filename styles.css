@@ -66,7 +66,8 @@ ul {
 
 }
 
-.small-text {
+.small-text,
+.footer-text {
     font-size: 18px;
     color: #e5e7eb;
 }
@@ -168,4 +169,12 @@ ul {
 
 .box-button{
     border: 2px solid #f9faf8;
+    flex-shrink: 0;
 }
+
+.footer{
+    text-align: center;
+    padding: 30px;
+    background: #1F2937;
+}
+
