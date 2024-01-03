@@ -18,9 +18,7 @@ body {
 
 .left-header,
 .right-header {
-    
     padding: 10px 70px;
-
 }
 
 .left-header {
@@ -81,8 +79,7 @@ button {
 .img-cards{
     width: 200px;
     border-radius: 10%;
-    
-    
+    border: 2px solid rgb(10, 112, 156);
 }
 
 .container-content {
@@ -90,7 +87,6 @@ button {
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
-    
 }
 
 .cards-container {
@@ -99,6 +95,7 @@ button {
     align-items: center;
     gap: 15px;
     flex-wrap: wrap;
+    margin-bottom: 50px;
     
 }
 
@@ -115,14 +112,33 @@ button {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-basis: 12%;
-
-    
+    flex-basis: 12%;    
 }
-
 
 .card-text {
     text-align: center;
     padding: 5px;
     color: rgb(58, 58, 58);
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #e5e7eb;
+    padding: 100px;
+    
+}
+
+.quote-text,
+.quote-author {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    
+}
+
+.quote-author {
+    align-self: flex-end;
 }
