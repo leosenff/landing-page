@@ -10,6 +10,10 @@ body {
     background: #1F2937;
 }
 
+.container-content{
+    padding: 0px 150px;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -73,9 +77,10 @@ ul {
 }
 
 .img-header {
-    width: 500px;
+    width: 35vw;
     margin: auto;
     padding: 30px;
+
 }
 
 .img-cards{
@@ -159,6 +164,7 @@ ul {
     padding: 40px;
     width: 800px;
     border-radius: 10px;
+    gap: 2px;
 }
 
 .big-text {
